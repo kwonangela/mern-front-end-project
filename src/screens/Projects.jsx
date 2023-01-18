@@ -14,6 +14,8 @@ export default function Projects() {
     setProjects(allProjects);
   }
 
+console.log(projects)
+
   return (
     <div>
         <h1>Projects</h1>

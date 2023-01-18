@@ -3,8 +3,8 @@ import axios from "axios";
 let apiUrl;
 
 const apiUrls = {
-    production: "",
-    development: "http://localhost:3000/api"
+    production: "https://nasaprojectapi-production.up.railway.app/api/",
+    development: "https://nasaprojectapi-production.up.railway.app/api/"
 };
 
 if (window.location.hostname === "localhost") {
