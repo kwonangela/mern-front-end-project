@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css';
 import Home from './screens/Home.jsx';
 import Projects from './screens/Projects.jsx';
 import EditProject from './screens/EditProject.jsx';

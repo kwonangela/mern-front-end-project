@@ -17,7 +17,7 @@ export default function Projects() {
 console.log(projects)
 
   return (
-    <div>
+    <div className="projects">
         <h1>Projects</h1>
         {projects.map ((projData) => (
                 <Project project={projData} key={projData.projectId}/>

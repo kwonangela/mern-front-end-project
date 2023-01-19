@@ -65,13 +65,13 @@ export default function CreateProject() {
                     value={project.description}
                     onChange={handleChange}
                 />
-                <input 
+                {/* <input 
                     type="text"
                     placeholder="Destinations"
                     name="destinations"
                     value={project.destinations.description}
                     onChange={handleChange}
-                />
+                /> */}
                 <input 
                     type="text"
                     placeholder="Start year"
